@@ -16,7 +16,7 @@ pipeline {
 
         stage('Deploy') {
             steps {
-              echo 'Deployment Successful' 
+              echo Deployment Successful' 
               // Add steps to deploy the build artifact
             }
         }
