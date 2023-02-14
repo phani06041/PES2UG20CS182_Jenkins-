@@ -16,8 +16,9 @@ pipeline {
 
         stage('Deploy') {
             steps {
-              echo Deployment Successful' 
-              // Add steps to deploy the build artifact
+              echo 'Deployment Successful' 
+              sh 'mvn deploy'
+                // Add steps to deploy the build artifact
             }
         }
     }
